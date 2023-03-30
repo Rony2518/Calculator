@@ -72,3 +72,24 @@ form {
     color: white;
     border: none;
 }
+
+@media (max-width: 500px) {
+    form {
+        display: inline-block;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 25px;
+        background-color: rgb(16, 15, 15);
+    }
+
+    .screen {
+        background-color: rgb(16, 15, 15);
+        width: 230px;
+        padding: 10px;
+        height: 25px;
+        color: white;
+        border: none;
+        font-size: 20px;
+    }
+}
