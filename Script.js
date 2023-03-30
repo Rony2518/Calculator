@@ -7,7 +7,7 @@ function Solve(val) {
 }
 
 function clearInput() {
-    document.getElementById('answer').value = '0';
+    document.getElementById('answer').value = '';
 }
 
 function Back() {
